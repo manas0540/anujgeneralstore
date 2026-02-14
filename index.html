@@ -1,72 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Anuj General Store | Paraupur, Sultanpur</title>
-  <link rel="stylesheet" href="style.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anuj General Store | Paraupur, Sultanpur</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header class="header">
-  <div class="overlay">
+<!-- NAVBAR -->
+<header class="navbar">
     <h1>Anuj General Store</h1>
-    <p>Paraupur, Sultanpur • Trusted Daily Essentials</p>
-    <a href="#contact" class="btn">Call Now</a>
-  </div>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#products">Products</a>
+        <a href="#contact">Contact</a>
+    </nav>
 </header>
 
-<section class="about">
-  <h2>About Us</h2>
-  <p>
-    Anuj General Store is a reliable neighborhood shop serving Paraupur with
-    quality FMCG products, daily essentials, and friendly service.
-  </p>
+<!-- HOME -->
+<section id="home" class="hero">
+    <h2>Your Trusted Local Grocery Store</h2>
+    <p>Paraupur, Sultanpur • Quality Daily Essentials</p>
+    <div class="hero-buttons">
+        <a href="tel:+919450184679" class="btn call">📞 Call Now</a>
+        <a href="https://wa.me/919450184679" target="_blank" class="btn whatsapp">💬 WhatsApp</a>
+    </div>
 </section>
 
-<section class="products">
-  <h2>Our Products</h2>
-  <div class="product-grid">
-
-    <div class="card">
-      <img src="images/rice.jpg" alt="Rice & Pulses">
-      <h3>Rice & Pulses</h3>
-    </div>
-
-    <div class="card">
-      <img src="images/oil.jpg" alt="Edible Oils">
-      <h3>Edible Oils & Spices</h3>
-    </div>
-
-    <div class="card">
-      <img src="images/snacks.jpg" alt="Snacks">
-      <h3>Snacks & Dry Fruits</h3>
-    </div>
-
-    <div class="card">
-      <img src="images/personal.jpg" alt="Personal Care">
-      <h3>Personal Care</h3>
-    </div>
-
-  </div>
+<!-- ABOUT -->
+<section id="about" class="section">
+    <h3>About Us</h3>
+    <p>
+        Anuj General Store is a trusted neighborhood kirana shop serving Paraupur,
+        Sultanpur with quality FMCG products and fair pricing.
+    </p>
+    <p>
+        यह एक भरोसेमंद जनरल स्टोर है जहाँ रोज़मर्रा की ज़रूरतें मिलती हैं।
+    </p>
 </section>
 
-<section class="ratings">
-  <h2>Customer Ratings</h2>
-  <p>⭐ Google Maps: <strong>4.9 / 5</strong></p>
-  <p>⭐ Justdial: <strong>4.7 / 5</strong></p>
+<!-- PRODUCTS (DANCING SECTION 😎) -->
+<section id="products" class="products-section">
+    <h3>Our Products</h3>
+
+    <div class="product-grid">
+        <div class="product-card">🌾 Rice, Wheat & Pulses</div>
+        <div class="product-card">🛢️ Edible Oils & Spices</div>
+        <div class="product-card">🍪 Snacks & Biscuits</div>
+        <div class="product-card">🥜 Dry Fruits</div>
+        <div class="product-card">🧼 Personal Care Items</div>
+        <div class="product-card">🥤 Cold Drinks & Packaged Foods</div>
+    </div>
 </section>
 
-<section id="contact" class="contact">
-  <h2>Contact Us</h2>
-  <p>📍 Paraupur, Sultanpur, UP – 228001</p>
-  <p>📞 <a href="tel:+916392617264">+91 63926 17264</a></p>
+<!-- DELIVERY -->
+<section class="section">
+    <h3>Home Delivery</h3>
+    <p><strong>Currently not available</strong></p>
+    <p>⏳ Coming Soon</p>
+</section>
+
+<!-- MAP -->
+<section class="section light">
+    <h3>Live Location</h3>
+    <iframe
+        src="https://www.google.com/maps?q=Paraupur%20Sultanpur%20Uttar%20Pradesh&output=embed"
+        class="map"
+        loading="lazy">
+    </iframe>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+    <h3>Contact Us</h3>
+    <p>📍 Paraupur, Sultanpur, Uttar Pradesh – 228001</p>
+    <p>📞 <strong>9450184679</strong></p>
+
+    <div class="hero-buttons">
+        <a href="tel:+919450184679" class="btn call">Call Now</a>
+        <a href="https://wa.me/919450184679" target="_blank" class="btn whatsapp">WhatsApp</a>
+    </div>
 </section>
 
 <footer>
-  <p>© 2026 Anuj General Store | Designed for Local Business Growth</p>
+    <p>© 2026 Anuj General Store | Trusted Local Grocery</p>
 </footer>
 
-<script src="script.js"></script>
 </body>
 </html>
